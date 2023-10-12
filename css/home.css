@@ -14,8 +14,10 @@
     position: relative;
 }
 
-/* .image-banner{
-} */
+.image-banner{
+    width: 150px;
+    height: auto;
+}
 .about-faras{
     display: flex;
     justify-content: center;
