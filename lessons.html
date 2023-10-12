@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faras</title>
+    <link href="/css/header.css" rel="stylesheet" />
+    <link href="/css/lesson.css" rel="stylesheet" />
+    <link href="/img/icon.png" rel="shortcut icon">
+    <link rel="icon" href="/images/favicon.ico">
+    <script
+    src="https://kit.fontawesome.com/d65d21ccfc.js"
+    crossorigin="anonymous"
+  ></script>
+  </head>
+
+  <body>
+    <header>
+        <nav>
+          <div class="navbar">
+            <img class="imglogo" src="/img/icon.png" alt="Logo"/>
+            <div class="option-button">
+                <div class="wrapper">
+                    <div class="option" id="homeBtn">
+                        <input class="input" type="radio" name="btn" value="option1" >
+                        <label class="btn">
+                            <span class="span">Home</span>
+                        </label>
+                    </div>
+                    <div class="option" id="contactBtn">
+                        <input class="input" type="radio" name="btn" value="option2" checked>
+                        <label class="btn">
+                            <span class="span">Lessons</span>
+                        </label>
+                    </div>
+                    <div class="option" id="testiBtn">
+                        <input class="input" type="radio" name="btn" value="option3">
+                        <label class="btn">
+                            <span class="span">Teams</span>
+                        </label>
+                    </div>
+                </div>
+          </div>
+        </nav>
+    </header>
+
+        <!-- Language row 1 -->
+        <main>
+            <div id="languages">
+                <div class="container">
+                  <h1 class="sub-title">Programming Languages</h1>
+                  <div class="languages-list">
+                    <div class="languages">
+                      <img src="img/icon-python.png" alt="language-1" />
+                      <div class="layer">
+                        <h2>Python</h2>
+                        <a href="#">
+                          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="languages">
+                        <img src="img/icon-java.png" alt="language-2" />
+                        <div class="layer">
+                          <h2>Java</h2>
+                          <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                          </a>
+                        </div>
+                    </div>
+                    <div class="languages">
+                        <img src="img/icon-js.jpg" alt="language-3" />
+                        <div class="layer">
+                          <h2>Javascript</h2>
+                          <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                          </a>
+                        </div>
+                    </div>
+                    <div class="languages">
+                        <img src="img/icon-php.png" alt="language-4" />
+                        <div class="layer">
+                          <h2>PHP</h2>
+                          <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                          </a>
+                        </div>
+                    </div>
+                  </div>
+
+                  <!-- Language row 2 -->
+
+                  <div class="languages-list">
+                    <div class="languages">
+                      <img src="img/icon-ruby.png" alt="language-4" />
+                      <div class="layer">
+                        <h2>Ruby</h2>
+                        <a href="#">
+                          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                        </a>
+                      </div>
+                    </div>
+                    <div class="languages">
+                        <img src="img/icon-java.png" alt="language-2" />
+                        <div class="layer">
+                          <h2>Java</h2>
+                          <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                          </a>
+                        </div>
+                    </div>
+                    <div class="languages">
+                        <img src="img/icon-js.jpg" alt="language-3" />
+                        <div class="layer">
+                          <h2>Javascript</h2>
+                          <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                          </a>
+                        </div>
+                    </div>
+                    <div class="languages">
+                        <img src="img/icon-php.png" alt="language-4" />
+                        <div class="layer">
+                          <h2>PHP</h2>
+                          <a href="#">
+                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                          </a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </main>
+
+    <footer>
+        
+    </footer>
+  </body>
+      <!--SCRIPT OPSI HEADER  -->
+      <script>
+        document.getElementById("homeBtn").addEventListener("click", function () {
+            window.location.href = "/home.html";
+        });
+
+        document.getElementById("contactBtn").addEventListener("click", function () {
+            window.location.href = "/lessons.html";
+        });
+
+        document.getElementById("testiBtn").addEventListener("click", function () {
+            window.location.href = "/teams.html";
+        });
+    </script>
+</html>

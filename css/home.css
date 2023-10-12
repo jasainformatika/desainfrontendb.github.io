@@ -1,0 +1,104 @@
+.container-banner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.banner{
+    display: flex;
+    background-image: linear-gradient(135deg, #8be5d3, #8be5d3);
+    width: 100%;
+    height: 450px;
+    z-index: -1;
+    position: relative;
+}
+
+/* .image-banner{
+} */
+.about-faras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    margin-top: -10px;
+    background-color: #eab825;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.container-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.logo-about{
+    display: flex;
+}
+.banner-about{
+    display: flex;
+    background-image: linear-gradient(135deg, #8be5d3, #8be5d3);
+    max-width: 75%;
+    height: auto;
+    border-radius: 20px;
+    padding: 30px;
+    font-family: 'Popins', sans-serif;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.container-information{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -20px;
+    flex-direction: column;
+    padding: 20px;
+    
+}
+
+.about-lesson{
+    display: flex;
+    background-image: linear-gradient(135deg, #8be5d3, #8be5d3);
+    max-width: 40%;
+    height: auto;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    padding: 30px;
+    font-family: 'Popins', sans-serif;
+}
+
+.image-lesson{
+    width: 300px;
+    height: 150px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.button-start{
+    background-color: #eab825;
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+
+.button-start:hover{
+    background-color: chartreuse;
+}

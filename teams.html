@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Faras</title>
+    <link href="/css/header.css" rel="stylesheet" />
+    <link href="/css/teams.css" rel="stylesheet" />
+    <link href="/img/icon.png" rel="shortcut icon">
+    <script src="https://kit.fontawesome.com/dd9af7210e.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <header>
+        <nav>
+          <div class="navbar">
+            <img class="imglogo" src="/img/icon.png" alt="Logo"/>
+            <div class="option-button">
+                <div class="wrapper">
+                    <div class="option" id="homeBtn">
+                        <input class="input" type="radio" name="btn" value="option1" >
+                        <label class="btn">
+                            <span class="span">Home</span>
+                        </label>
+                    </div>
+                    <div class="option" id="contactBtn">
+                        <input class="input" type="radio" name="btn" value="option2">
+                        <label class="btn">
+                            <span class="span">Lessons</span>
+                        </label>
+                    </div>
+                    <div class="option" id="testiBtn">
+                        <input class="input" type="radio" name="btn" value="option3" checked>
+                        <label class="btn">
+                            <span class="span">Teams</span>
+                        </label>
+                    </div>
+                </div>
+          </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="team">
+            <h1 class="heading">
+                <i class="fas fa-rocket"></i><strong>Our Team</strong>
+            </h1>
+            <div class="container">
+                <div class="box">
+                    <div class="top-bar"></div>
+                        <div class="nav">
+                            <i class="verify fas fa-check-circle"></i>
+                            <input type="checkbox" class="heart-btn" id="heart-btn">
+                            <label  class="heart"></label>
+                        </div>
+      
+                        <div class="details">
+                            <img src="/img/fajar.jpg" alt="">
+                            <strong>Fajar Wahyu</strong>
+                            <p>fajar@gmail.com</p>
+                        </div>
+      
+                        <div class="btn">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                <div class="box">
+                    <div class="top-bar"></div>
+                        <div class="nav">
+                            <i class="verify fas fa-check-circle"></i>
+                            <input type="checkbox" class="heart-btn" id="heart-btn">
+                            <label  class="heart"></label>
+                        </div>
+      
+                        <div class="details">
+                            <img src="/img/rangga.jpg" alt="">
+                            <strong>Dwi Rangga</strong>
+                            <p>rangga@gmail.com</p>
+                        </div>
+      
+                        <div class="btn">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                <div class="box">
+                    <div class="top-bar"></div>
+                        <div class="nav">
+                            <i class="verify fas fa-check-circle"></i>
+                            <input type="checkbox" class="heart-btn" id="heart-btn">
+                            <label  class="heart"></label>
+                        </div>
+      
+                        <div class="details">
+                            <img src="/img/saka.jpg" alt="">
+                            <strong>Saka Nusi</strong>
+                            <p>saka@gmail.com</p>
+                        </div>
+      
+                        <div class="btn">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-youtube"></i></a>
+                        </div>
+                      </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        
+    </footer>
+  </body>
+      <!--SCRIPT OPSI HEADER  -->
+      <script>
+        document.getElementById("homeBtn").addEventListener("click", function () {
+            window.location.href = "/home.html";
+        });
+
+        document.getElementById("contactBtn").addEventListener("click", function () {
+            window.location.href = "/lessons.html";
+        });
+
+        document.getElementById("testiBtn").addEventListener("click", function () {
+            window.location.href = "/teams.html";
+        });
+    </script>
+</html>
